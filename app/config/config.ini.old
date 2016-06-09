@@ -1,0 +1,13 @@
+[database]
+adapter = Mysql
+host = cfootballproduction.cpmcch5mnlup.us-west-2.rds.amazonaws.com
+username = cFootball
+password = cFootballDevelopment
+dbname = cFootball_prod
+
+[phalcon]
+controllersDir = "../../app/controllers/"
+modelsDir = "../../app/models/"
+viewsDir = "../../app/views/"
+baseUri = "../../cloudFootball/"
+
